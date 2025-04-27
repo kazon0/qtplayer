@@ -2,7 +2,7 @@
 //  personview.swift
 //  bilibili1
 //
-//  Created by 郑金坝 on 2025/4/6.
+//  Created by 郑晗希 on 2025/4/6.
 //
 
 import SwiftUI
