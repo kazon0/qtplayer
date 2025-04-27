@@ -8,6 +8,7 @@
 #include <QDebug>
 #include <QThread>
 #include "decodevideo.h"
+#include "encodevideo.h"
 
 class MainWidget :public QWidget
 {
@@ -19,11 +20,13 @@ public:
 private:
     QPushButton *btn;
     DecodeVideo * decodeThread;
+    encodeVideo * encodeThread;
     QImage image;
     QLabel * lab;
 public slots:
-    void btnClickFuction();
-    void receiveImage(QImage img);
+    void btnClickFunction();
+    void recieveImage(QImage img);
+
 protected:
     void paintEvent(QPaintEvent *event);
 
