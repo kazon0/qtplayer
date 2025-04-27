@@ -2,6 +2,7 @@
 #define ENCODEVIDEO_H
 
 
+
 class EncodeVideo
 {
 public:
